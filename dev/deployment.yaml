@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: dev-container
-        image: hello-cloudbuild-dev
+        image: hello-app
         ports:
         - containerPort: 8080
